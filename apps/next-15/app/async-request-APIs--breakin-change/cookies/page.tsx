@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 import { DeleteCookieButton, SetCookieButton } from "./button";
 
-const AsyncRequestAPIsBreakinChangeCookies = async () => {
+const AsyncRequestAPIsBreakinChangeCookiesPage = async () => {
   const cookieStore = await cookies()
   const token = cookieStore.get("token")
 
@@ -14,4 +14,4 @@ const AsyncRequestAPIsBreakinChangeCookies = async () => {
   );
 };
 
-export default AsyncRequestAPIsBreakinChangeCookies;
+export default AsyncRequestAPIsBreakinChangeCookiesPage;

@@ -1,8 +1,8 @@
 import { headers } from "next/headers";
 
-const AsyncRequestAPIsBreakinChangeHeaders = async () => {
+const AsyncRequestAPIsBreakinChangeHeadersPage = async () => {
   const headersList = await headers()
   return <div>Headers: {JSON.stringify(headersList)}</div>;
 };
 
-export default AsyncRequestAPIsBreakinChangeHeaders;
+export default AsyncRequestAPIsBreakinChangeHeadersPage;
