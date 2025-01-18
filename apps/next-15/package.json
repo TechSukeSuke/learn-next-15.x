@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
+    "babel-plugin-react-compiler": "19.0.0-beta-e552027-20250112",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
